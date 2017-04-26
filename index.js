@@ -21,7 +21,7 @@ var options = {
     json: true
 };
 
-var onlyCurrentLevel = true;
+var onlyCurrentLevel = argv['current-level'];
 
 rp(options)
     .then(function(resp) {
