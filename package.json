@@ -1,0 +1,20 @@
+{
+  "name": "practice-sheets",
+  "version": "0.0.1",
+  "description": "Generates pratice kanji sheets for upcoming items",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "pdfkit": "^0.8.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "yargs": "^7.1.0"
+  }
+}
